@@ -20,7 +20,7 @@ namespace QuickBuy.Dominio.Entidades
         
 
         /// <summary>
-        /// Pedido deve ter pelo menos um item de pedido
+        /// Pedido eve ter pelo menos um item de pedido
         /// ou muitos itens de pedidos
         /// </summary>
         public ICollection<ItemPedido> ItensPedido { get; set; }
